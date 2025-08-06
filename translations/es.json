@@ -1,0 +1,64 @@
+{
+  "app_title": "Generador README Contribuciones GitHub",
+  "username_label": "Usuario GitHub:",
+  "token_label": "Token GitHub:",
+  "validate_button": "Validar",
+  "copy_readme_button": "Copiar README",
+  "manage_comments_button": "Gestionar Comentarios",
+  "language_label": "Idioma:",
+  "created_by": "Creado por",
+  
+  "status_messages": {
+    "fill_both_fields": "Por favor complete ambos campos.",
+    "validating": "Validando...",
+    "invalid_credentials": "Error: Usuario o token inválido.",
+    "connection_validated": "Conexión validada y configuración guardada.",
+    "theme_changed": "Tema cambiado: {theme}",
+    "readme_copied": "README copiado al portapapeles."
+  },
+  
+  "comments_dialog": {
+    "title": "Gestionar Comentarios - {username}",
+    "subtitle": "Comentarios para {username}",
+    "instructions": "Agregue comentarios para sus contribuciones:",
+    "add_comment": "+ Agregar comentario",
+    "edit_button": "Editar",
+    "delete_button": "Eliminar",
+    "close_button": "Cerrar",
+    "add_comment_title": "Agregar Comentario",
+    "edit_comment_title": "Editar Comentario",
+    "delete_confirm_title": "Confirmar Eliminación",
+    "delete_confirm_message": "¿Está seguro de que desea eliminar el comentario para {repo}?",
+    "comment_for_repo": "Comentario para {repo}:"
+  },
+  
+  "categories": {
+    "profile_git": "Perfil GitHub",
+    "commit_only": "Contribuciones solo por commits",
+    "pull_requests": "Contribuciones vía pull requests",
+    "other_contributions": "Otras contribuciones (issues, reviews, forks, etc.)"
+  },
+  
+  "themes": {
+    "light": "Claro",
+    "dark": "Oscuro"
+  },
+  
+  "dialog_buttons": {
+    "yes": "Sí",
+    "no": "No",
+    "ok": "OK",
+    "cancel": "Cancelar"
+  },
+  
+  "warnings": {
+    "select_username": "Por favor primero seleccione un nombre de usuario.",
+    "generate_readme_first": "Por favor primero genere un README para ver la lista de repositorios."
+  },
+  
+  "errors": {
+    "invalid_credentials": "Usuario o token inválido.",
+    "user_info_error": "Error al obtener información del usuario.",
+    "github_data_error": "Error al obtener datos de GitHub."
+  }
+}

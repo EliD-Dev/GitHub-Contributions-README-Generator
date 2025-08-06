@@ -1,0 +1,64 @@
+{
+  "app_title": "Générateur README Contributions GitHub",
+  "username_label": "Nom utilisateur GitHub :",
+  "token_label": "Token GitHub :",
+  "validate_button": "Valider",
+  "copy_readme_button": "Copier le README",
+  "manage_comments_button": "Gérer les commentaires",
+  "language_label": "Langue :",
+  "created_by": "Créé par",
+  
+  "status_messages": {
+    "fill_both_fields": "Veuillez remplir les deux champs.",
+    "validating": "Validation en cours...",
+    "invalid_credentials": "Erreur: Nom utilisateur ou token invalide.",
+    "connection_validated": "Connexion validée et configuration sauvegardée.",
+    "theme_changed": "Thème changé : {theme}",
+    "readme_copied": "README copié dans le presse-papier."
+  },
+  
+  "comments_dialog": {
+    "title": "Gérer les commentaires - {username}",
+    "subtitle": "Commentaires pour {username}",
+    "instructions": "Ajoutez des commentaires pour vos contributions :",
+    "add_comment": "+ Ajouter commentaire",
+    "edit_button": "Modifier",
+    "delete_button": "Supprimer",
+    "close_button": "Fermer",
+    "add_comment_title": "Ajouter commentaire",
+    "edit_comment_title": "Modifier commentaire",
+    "delete_confirm_title": "Confirmer suppression",
+    "delete_confirm_message": "Êtes-vous sûr de vouloir supprimer le commentaire pour {repo} ?",
+    "comment_for_repo": "Commentaire pour {repo} :"
+  },
+  
+  "categories": {
+    "profile_git": "Profil GitHub",
+    "commit_only": "Contributions par commits uniquement",
+    "pull_requests": "Contributions via pull requests",
+    "other_contributions": "Autres contributions (issues, reviews, forks, etc.)"
+  },
+  
+  "themes": {
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  
+  "dialog_buttons": {
+    "yes": "Oui",
+    "no": "Non",
+    "ok": "OK",
+    "cancel": "Annuler"
+  },
+  
+  "warnings": {
+    "select_username": "Veuillez d'abord sélectionner un nom d'utilisateur.",
+    "generate_readme_first": "Veuillez d'abord générer un README pour voir la liste des repositories."
+  },
+  
+  "errors": {
+    "invalid_credentials": "Nom utilisateur ou token invalide.",
+    "user_info_error": "Erreur lors de la récupération des informations utilisateur.",
+    "github_data_error": "Erreur lors de la récupération des données GitHub."
+  }
+}

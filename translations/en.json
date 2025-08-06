@@ -1,0 +1,64 @@
+{
+  "app_title": "GitHub Contributions README Generator",
+  "username_label": "GitHub Username:",
+  "token_label": "GitHub Token:",
+  "validate_button": "Validate",
+  "copy_readme_button": "Copy README",
+  "manage_comments_button": "Manage Comments",
+  "language_label": "Language:",
+  "created_by": "Created by",
+  
+  "status_messages": {
+    "fill_both_fields": "Please fill in both fields.",
+    "validating": "Validating...",
+    "invalid_credentials": "Error: Invalid username or token.",
+    "connection_validated": "Connection validated and configuration saved.",
+    "theme_changed": "Theme changed: {theme}",
+    "readme_copied": "README copied to clipboard."
+  },
+  
+  "comments_dialog": {
+    "title": "Manage Comments - {username}",
+    "subtitle": "Comments for {username}",
+    "instructions": "Add comments for your contributions:",
+    "add_comment": "+ Add comment",
+    "edit_button": "Edit",
+    "delete_button": "Delete",
+    "close_button": "Close",
+    "add_comment_title": "Add Comment",
+    "edit_comment_title": "Edit Comment",
+    "delete_confirm_title": "Confirm Deletion",
+    "delete_confirm_message": "Are you sure you want to delete the comment for {repo}?",
+    "comment_for_repo": "Comment for {repo}:"
+  },
+  
+  "categories": {
+    "profile_git": "GitHub profile",
+    "commit_only": "Contributions by commits only",
+    "pull_requests": "Contributions via pull requests",
+    "other_contributions": "Other contributions (issues, reviews, forks, etc.)"
+  },
+  
+  "themes": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  
+  "dialog_buttons": {
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "cancel": "Cancel"
+  },
+  
+  "warnings": {
+    "select_username": "Please first select a username.",
+    "generate_readme_first": "Please first generate a README to see the list of repositories."
+  },
+  
+  "errors": {
+    "invalid_credentials": "Invalid username or token.",
+    "user_info_error": "Error retrieving user information.",
+    "github_data_error": "Error retrieving GitHub data."
+  }
+}
